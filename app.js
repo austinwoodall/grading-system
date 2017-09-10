@@ -51,6 +51,7 @@ function calculateGrade() {
 
    // Divides sum of array then divides by the amount of numbers in array
    average = sumArr / gradeArray.length;
-
+   
+  // Console.log for debugging
    console.log(gradeArray);
 }
