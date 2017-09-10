@@ -2,16 +2,17 @@
 <html>
    <head>
       <title>Grading System</title>
+      <link href="styles.css">
    </head>
    <body>
       <form>
-         <input id="input" type="number" max="100">
+         <input id="input" type="number" max="100">         
       </form>
       <button onclick="calculateGrade()" class="grade">Grade</button>
-      <ul id="grades-list">
-         <li></li>
-      </ul>
+     <div class="grade-list">
       <p>Grade: <span id="grade-letter"></span></p>
+     </div>
+      
       <p>Average Grade: <span id="average"></span></p>
 
       <script src="app.js"></script>

@@ -1,0 +1,7 @@
+p, span {
+   float: left;
+}
+
+ul {
+   display: inline-block;
+}
