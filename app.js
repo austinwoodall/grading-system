@@ -1,8 +1,6 @@
 var input = document.getElementById('input');
 var grade = document.getElementsByClassName('grade');
 
-
-
 var span = "";
 var gradeArray = [];
 var average = 0;
@@ -38,7 +36,6 @@ function calculateGrade() {
    // Gets sum of numbers inside the array
    for (i = 0; i < gradeArray.length; i++) {
       sumArr += +gradeArray[i];
-      console.log(sumArr);
    }
    // values over 100 and blnk values are ignored
    if (inputGrade > 100 || inputGrade == '') {
@@ -51,7 +48,4 @@ function calculateGrade() {
 
    // Divides sum of array then divides by the amount of numbers in array
    average = sumArr / gradeArray.length;
-   
-  // Console.log for debugging
-   console.log(gradeArray);
 }
